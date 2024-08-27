@@ -1,0 +1,303 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    color: #ddcfa5;
+    line-height: 1.6;
+    background-size: cover;
+}
+
+.highlight {
+    color: #d2c247; /* Change this color code to your desired color */
+}
+
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5e222a;
+    padding: 0px 29px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 23px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ddcfa5;
+    transition: color 0.3s;
+    
+}
+
+.navbar ul li a:hover {
+    color: #f0a500;
+}
+
+.contact-btn .btn {
+    background-color: #f0a500;
+    color: #1e1e1e;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-btn .btn:hover {
+    background-color: #e08d00;
+}
+
+.services-grid {
+    display: flex;
+    gap: 20px; /* Adjusts the space between each service item */
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if there's not enough space */
+}
+
+.service-item {
+    flex: 1; /* Allows each item to take an equal amount of space */
+    min-width: 200px; /* Ensures each item has a minimum width */
+    max-width: 300px; /* Adjust as necessary */
+    text-align: center; /* Centers the text within each service item */
+    margin: 10px; /* Adds margin around each service item */
+    box-shadow: 0 3px 14px rgba(1, 1, 1, 1.1); /* Adds a shadow for a card-like effect */
+    padding: 13px; /* Adds some padding inside each service item */
+    background-color: #c6bcaa; /* Optional: Adds a background color to each service item */
+    color:#814040;
+    border-radius: 15px;
+    
+}
+.services a {
+    text-decoration: none;
+}
+.services {
+    padding: 20px; /* Adds padding around the entire services section */
+     /* Optional: Adds a background color to the section */
+}
+
+
+/* Services Section */
+.services-section {
+    padding: 50px 20px;
+    background-color: #c6bcaa;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-size: 36px;
+    color: #814040;
+    margin-bottom: 20px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    gap: 30px;
+    margin:0 auto;
+    max-width:1200px;
+}
+
+.service {
+    background-color: #c6bcaa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.service h3 {
+    font-size: 20px;
+    color: #814040;
+    margin-top: 10px;
+}
+
+.service p {
+    font-size: 14px;
+    color: #814040;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #d4a017;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url(https://ibb.co/NmG7);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: #ddcfa5;
+}
+
+.hero-content h1 {
+    font-size: 57px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 85px;
+}
+
+.hero-content .btn {
+    background-color: #f0a500;
+    color: #1e1e1e;
+    padding: 9px 20px;
+    text-decoration: none;
+    border-radius: 11px;
+    margin: 25px;
+    transition: background-color 0.3s;
+}
+
+
+.hero-content .btn:hover {
+    background-color: #e08d00;
+}
+
+/* News Section */
+.news {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #2b2b2b;
+}
+
+.news h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.news-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.news-item {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.news-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.news-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.news-item .btn {
+    background-color: #f0a500;
+    color: #1e1e1e;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.news-item .btn:hover {
+    background-color: #e08d00;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer-nav ul li {
+    margin: 0 10px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #e0e0e0;
+    transition: color 0.3s;
+}
+
+.footer-nav ul li a:hover {
+    color: #f0a500;
+}
+.about-us{
+    margin-left: 3px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    
+}

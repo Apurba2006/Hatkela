@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: "New Amsterdam", sans-serif;
+    margin: 20;
+    padding: 3;
+    background-color: #f8f9fa;
+    color: #fefefe;
+}
+
+body {
+    background-image: url('IMAGES/bhoto.jpg'); /* Path to your image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background image fixed when scrolling */
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url('IMAGES/bhoto.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "New Amsterdam", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the footer is pushed to the bottom */
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    color: #f0e68c; /* Gold color for the main heading */
+}
+
+.section-heading {
+    font-size: 2.0em;
+    color: #f0e68c; /* Different gold color for subheadings */
+    margin-top: 127px;
+}
+
+.content p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.site-footer {
+    background-color: #333;
+    color: #ccc;
+    padding: 10px 0;
+    font-size: 0.8em;
+    text-align: center;
+    width: 100%;
+    position: relative; /* Allows for the footer to remain at the bottom if the content is short */
+}
+
+/* Header Styling */
+header {
+    background-color: #fdff9dae;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: rgb(248, 210, 156);
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav a.active {
+    font-weight: bold;
+}
+
+header nav a:hover {
+    background-color: #fff68f;
+    border-radius: 5px;
+}
+
+/* About Page Styles */
+.about-page {
+    
+    padding: 53px 23px;
+    text-align: center;
+}
+
+.about-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #e1b16e;
+}
+
+
+.about-page p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.about-images img {
+    width: 45%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+footer nav a {
+    color: #fff;
+    margin: 0px;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}

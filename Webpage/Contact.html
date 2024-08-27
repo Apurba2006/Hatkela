@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Hatkela</title>
+    <link rel="stylesheet" href="Contact.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="IMAGES/hatkela.png" alt="Hatkela Logo" class="logo"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <a href="contact.html" class="cta-button">Get in Touch</a>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <h1>Contact Us</h1>
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>Online Inquiry</h2>
+                <form action="submit_contact_form.php" method="post">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="tel" name="phone" placeholder="Phone" required>
+                    <select name="interest">
+                        <option value="" disabled selected>Select An Interest</option>
+                        <option value="design">Custom Design</option>
+                        <option value="production">Production Inquiry</option>
+                        <option value="partnership">Partnership Opportunities</option>
+                    </select>
+                    <textarea name="message" placeholder="Message" rows="4" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-details">
+                <h2>Contact Details</h2>
+                <p>Email: info@hatkela.com</p>
+                <p>Phone:9745941759</p>
+                <address>
+                    <strong><p>Main Office</strong><br></p>
+                    Old Baneshwor<br>
+                    Kathmandu, Nepal
+                </address>
+                <address>
+                    <strong><p>Production Facility</strong><br></p>
+                    456 Industry Rd<br>
+                    Old Baneshwor, CA 90001
+                </address>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hatkela. All rights reserved.</p>
+        <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a>
+    </footer>
+</body>
+</html>
